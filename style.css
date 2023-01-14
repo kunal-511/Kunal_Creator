@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left, .right {
+    float: left;
+    width: 20%; 
+  }
+  
+  .main {
+    float: left;
+    width: 60%; 
+  }
+  
+  
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    border-radius: 1.875rem;
+}
+
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 0.813rem 1.25rem;
+
+}
+.navbar ul{
+    overflow: auto; 
+
+}
+.navbar li a{
+    padding: 0.188 0.188rem;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+button  {
+    color: white;
+    background-color: rgb(166, 36, 236);
+    border: 0.125rem solid rgb(166, 36, 236);
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    border-radius: 0.313rem;
+    cursor: pointer; 
+    }
+
+    .logo img{
+        display: flex;
+            width: 4.724rem;
+            float: left;
+            margin-left: 9.375rem;
+            
+        }
+        .name{
+            padding-top: 1.25rem;
+            color: white;
+            font-size: 1.5rem;
+        }
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding: 12.5rem 1.875rem;
+            
+        }
+        .firsthalf{
+            width: 45%;
+            justify-content: center;
+            height: 80%;
+            
+        }
+        .secondhalf img{
+            border: 0.25rem  solid rgb(214, 214, 209);
+            border-radius: 1.25rem;
+            display: block;
+            height: 23.622rem;
+            margin-left: 15.625rem;
+            
+        }
+
+      
+ .leftbox{
+    border: 0.313rem solid rgb(231, 213, 240);
+    background-color: rgb(231, 213, 240);
+            display: inline-block;
+            width: 12.5rem;
+            height: 6.25rem;
+            margin: 0.125rem;
+ }
+ .middlebox{
+    border: 0.313rem solid rgb(231, 213, 240);
+    background-color: rgb(231, 213, 240);
+            display: inline-block;
+            width: 12.5rem;
+            height: 6.25rem;
+            margin: 0.125rem;
+ }
+ .rightbox{
+    border: 0.313rem solid rgb(231, 213, 240);
+    background-color: rgb(231, 213, 240);
+            display: inline-block;
+            width: 12.5rem;
+            height: 6.25rem;
+            margin: 0.125rem;
+ }
+ .s1{
+    margin-left: 3.75rem;
+ }  
+.container{
+    margin-top: 15.625rem;
+    margin-left: 3.75rem;
+    margin-bottom: 15.625rem;
+    padding-bottom: 15.625rem;
+}
+.rightside{
+    float: right;
+    margin-right: 2.5rem;
+}
+.leftside img{
+    border: 0.25rem  solid rgb(214, 214, 209);
+    border-radius: 1.25rem;
+    display: block;
+    height: 17.716rem;
+    float: left;
+    margin-left: 7.5rem; 
+    
+}
+#contain     {
+    display: flex;
+  }
+  #ls{
+    width: 50%;
+    margin: left 3.75em;;
+    
+  }
+  #rs{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sbox1 {
+    width: 40%;
+    height: 12.5rem;
+   border: 0.125rem solid   rgb(231, 213, 240);
+    margin: 0.625rem;
+    text-align: center;
+    
+  }
+  .sbox2 {
+    width: 40%;
+    height: 12.5rem;
+    border: 0.125rem solid   rgb(231, 213, 240);
+    margin: 0.625rem;
+    text-align: center;
+    
+  }.sbox3 {
+    width: 40%;
+    height: 12.5rem;
+    border: 0.125rem solid   rgb(231, 213, 240);
+    margin: 0.625rem;
+    text-align: center;
+  }.sbox4 {
+    width: 40%;
+    height: 12.5rem;
+    border: 0.125rem solid   rgb(231, 213, 240);
+    margin: 0.625rem;
+    text-align: center;
+  }
+  .s11{
+    background-color:  rgb(231, 213, 240);
+    
+  }
+ @media screen and (max-width: 998px)
+{
+   html {
+    font-size: 55%;
+   }
+
+}     
+
+@media screen and (max-width: 768px)
+{
+   html {
+    font-size: 45%;
+   }
+
+}   
+
+@media screen and (max-width: 538px)
+{
+   html {
+    font-size: 45%;
+   }
+
+} @media screen and (max-width: 498px)
+{
+   html {
+    font-size: 45%;
+   }
+
+} 
+@media screen and (max-width: 398px)
+{
+   html {
+    font-size: 45%;
+   }
+
+} 
+@media screen and (max-width: 358px)
+{
+   html {
+    font-size: 45%;
+   }
+
+} 
+
+
